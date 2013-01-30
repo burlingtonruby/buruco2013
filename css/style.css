@@ -1,0 +1,45 @@
+#header {
+  padding:10px 0 10px 0;
+  text-align:center;
+}
+
+body {
+  background:#F5F4F0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family:prata, serif;
+  font-size:120%;
+}
+
+a, a:visited, a:hover { color:#999; }
+
+#intro, #email, #footer { text-align:center; }
+
+#intro p {
+  font-size:20px;
+  margin:0;
+}
+
+#intro .devider {
+  width:70px;
+  border-top:2px solid #932829;
+  margin:15px auto 15px auto;
+}
+
+.large.devider {
+  width:80%;
+  border-top:2px solid #dedede;
+  margin:25px auto 25px auto;
+}
+
+input[type="email"] {
+  text-align:center;
+}
+
+.animated { opacity:0; }
+
+::-webkit-input-placeholder { text-align:center; }
+:-moz-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; }
+:-ms-input-placeholder { text-align:center; }
