@@ -8,8 +8,13 @@ body {
   color:#78766F;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family:prata, serif;
+  font-size:140%;
+}
+
+p {
+  font-family:georgia, serif;
   font-size:120%;
 }
 
@@ -33,13 +38,22 @@ a, a:visited, a:hover { color:#999; }
 }
 
 .large.devider {
-  width:80%;
+  width:60%;
   border-top:2px solid #dedede;
   margin:25px auto 25px auto;
 }
 
 input[type="email"] {
   text-align:center;
+}
+
+input#mce-EMAIL, input.button {
+  font-family: georgia, serif;
+  color:#78766F;
+}
+
+.button.secondary {
+  color:#78766F;
 }
 
 .animated { opacity:0; }
