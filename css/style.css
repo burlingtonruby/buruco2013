@@ -5,11 +5,16 @@
 
 body {
   background:#F5F4F0;
+  color:#78766F;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
   font-family:prata, serif;
   font-size:120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4C4B46;
 }
 
 a, a:visited, a:hover { color:#999; }
@@ -23,7 +28,7 @@ a, a:visited, a:hover { color:#999; }
 
 #intro .devider {
   width:70px;
-  border-top:2px solid #932829;
+  border-top:2px solid #dedede;
   margin:15px auto 15px auto;
 }
 
