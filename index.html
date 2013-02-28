@@ -42,16 +42,13 @@
   </div>
 
   <script type="text/javascript">
-    var _gauges = _gauges || [];
+    var _gaq = _gaq || [];
+    _gaq.push(['_setaccount', 'ua-38878382-1']);
+    _gaq.push(['_trackpageview']);
     (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '510a5969613f5d5948000001');
-      t.src = '//secure.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
+      var ga = document.createelement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getelementsbytagname('script')[0]; s.parentnode.insertbefore(ga, s);
     })();
   </script>
 </body>
