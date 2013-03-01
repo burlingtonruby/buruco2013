@@ -18,24 +18,24 @@ p {
   font-size:120%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #4C4B46;
-}
+h1, h2, h3, h4, h5, h6 { color:#4C4B46; }
 
 a, a:visited, a:hover { color:#999; }
 
-#intro, #email, #footer { text-align:center; }
+#intro, #email, #proposal, #footer { text-align:center; }
 
 #intro p {
   font-size:20px;
   margin:0;
 }
 
-#intro .devider {
+.small.devider {
   width:70px;
   border-top:2px solid #dedede;
   margin:15px auto 15px auto;
 }
+
+#intro .small.devider { border-top:2px solid #932829; }
 
 .large.devider {
   width:60%;
@@ -47,7 +47,7 @@ input[type="email"] {
   text-align:center;
 }
 
-input#mce-EMAIL, input.button {
+input#mce-EMAIL, input.button, a.button {
   font-family: georgia, serif;
   color:#78766F;
 }
