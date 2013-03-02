@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 { color:#4C4B46; }
 
 a, a:visited, a:hover { color:#999; }
 
-#intro, #email, #proposal, #footer { text-align:center; }
+#intro, #email, #proposal, #footer, #policy { text-align:center; }
 
 #intro p {
   font-size:20px;
