@@ -104,6 +104,10 @@ ul li {
   font-size:120%;
 }
 
+ul#nav li a {
+  text-decoration: none;
+}
+
 a {
   text-decoration: underline;
 }
