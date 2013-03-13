@@ -23,6 +23,7 @@ body {
   background:#F5F4F0;
   color:#78766F;
   text-align:center;
+  font-family:georgia, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,3 +97,13 @@ input#mce-EMAIL, input.button, a.button {
 :-moz-placeholder { text-align:center; }
 ::-moz-placeholder { text-align:center; }
 :-ms-input-placeholder { text-align:center; }
+
+
+ul li {
+  text-align: left;
+  font-size:120%;
+}
+
+a {
+  text-decoration: underline;
+}
