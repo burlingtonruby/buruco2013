@@ -3,14 +3,32 @@
   text-align:center;
 }
 
+#header ul {
+  list-style-type:none;
+  font-family:prata, serif;
+}
+
+#header ul li {
+  float:left;
+  margin:100px 16px 0 16px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#header ul a, #header ul a:visited {
+  color:#4C4B46;
+}
+
 body {
   background:#F5F4F0;
   color:#78766F;
+  text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family:prata, serif;
-  font-size:140%;
+  line-height:140%;
+  display:inline-block;
 }
 
 p {
@@ -20,9 +38,23 @@ p {
 
 h1, h2, h3, h4, h5, h6 { color:#4C4B46; }
 
-a, a:visited, a:hover { text-decoration: underline; color:#999; }
+h4 { margin:30px 0 30px 0; }
 
-#intro, #email, #proposal, #footer, #policy { text-align:center; }
+.speaker-frame, .speaker-frame img {
+  width:200px;
+  height:200px;
+  -webkit-border-radius:100px;
+  border-radius:100px;
+  margin:0 auto 15px auto;
+}
+
+.speaker, .sponsorship { margin-bottom:50px; }
+
+a, a:visited, a:hover { color:#999; }
+
+#intro, #email, #proposal, #footer, #policy, #speakers, #header, #sponsorship { margin-bottom:60px; }
+
+#footer p { margin:0; }
 
 #intro p {
   font-size:20px;
@@ -40,11 +72,13 @@ a, a:visited, a:hover { text-decoration: underline; color:#999; }
 .large.devider {
   width:60%;
   border-top:2px solid #dedede;
-  margin:25px auto 25px auto;
+  margin:25px auto 5px auto;
 }
 
 input[type="email"] {
   text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 input#mce-EMAIL, input.button, a.button {
