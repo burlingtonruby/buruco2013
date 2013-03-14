@@ -1,6 +1,5 @@
-# BURLINGTON RUBY CONFERENCE 2013
+# The 2013 Burlington Ruby Conference
 
-AUGUST 3rd & 4th, 2013
+August 3rd & 4th, 2013
 
 http://burlingtonruby.com
-
