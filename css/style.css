@@ -109,6 +109,8 @@ ul li {
   font-size:120%;
 }
 
+ul li:last-child { border:none; }
+
 ul#nav li a {
   text-decoration: none;
 }
