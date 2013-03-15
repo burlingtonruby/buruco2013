@@ -92,6 +92,8 @@ input#mce-EMAIL, input.button, a.button {
 
 .button.secondary {
   color:#78766F;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .animated { opacity:0; }
