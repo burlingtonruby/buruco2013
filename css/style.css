@@ -50,7 +50,14 @@ h4 { margin:30px 0 30px 0; }
   margin:0 auto 15px auto;
 }
 
-.speaker, .sponsorship { margin-bottom:50px; }
+.supporter-frame, .supporter-frame img {
+  width:150px;
+  height:150px;
+  -webkit-border-radius:100px;
+  border-radius:100px;
+  margin:0 auto 15px auto;
+}
+.speaker, .supporter, .sponsorship { margin-bottom:50px; }
 
 a, a:visited, a:hover { color:#999; }
 
