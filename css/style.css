@@ -27,6 +27,10 @@ body {
   font-family:georgia, serif;
 }
 
+.left, ul.left li {
+  text-align: left;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family:prata, serif;
   line-height:140%;
