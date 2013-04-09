@@ -62,7 +62,7 @@ h4 { margin:30px 0 30px 0; }
 a, a:visited, a:hover { color:#999; }
 
 #header, .section {
-  margin-bottom:20px;
+  margin-bottom:8px;
 }
 
 #footer p { margin:0; }
@@ -83,7 +83,7 @@ a, a:visited, a:hover { color:#999; }
 .large.devider {
   width:60%;
   border-top:2px solid #dedede;
-  margin:25px auto 5px auto;
+  margin:8px auto 12px auto;
 }
 
 input[type="email"] {
