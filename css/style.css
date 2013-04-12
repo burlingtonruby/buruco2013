@@ -137,11 +137,15 @@ a {
   text-decoration: underline;
 }
 
-#speakers h4 {
+#detailed_speakers h4 {
   margin: 5px 0px 10px 0px;
   font-size: 18px;
 }
 
-#speakers p {
+#detailed_speakers p {
   text-align: left;
+}
+
+p.bio {
+  font-size: 100%;
 }
