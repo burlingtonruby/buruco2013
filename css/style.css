@@ -136,3 +136,16 @@ ul#nav li a {
 a {
   text-decoration: underline;
 }
+
+#detailed_speakers h4 {
+  margin: 5px 0px 10px 0px;
+  font-size: 18px;
+}
+
+#detailed_speakers p {
+  text-align: left;
+}
+
+p.bio {
+  font-size: 110%;
+}
