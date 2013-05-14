@@ -1,20 +1,81 @@
 ---
 layout: main
-title: Speakers | Burlington Ruby Conference 2013
+title: Schedule and Speakers | Burlington Ruby Conference 2013
 meta_description: The speaker line up at the 2013 Burlington Ruby Conference in Burlington, Vermont on August 3rd and 4th.
-meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, speakers
+meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, speakers, schedule
 ---
 
 <div id="content">
   <div id="intro" class="section row">
     <div class="ten columns centered">
       <h1>Burlington Ruby Conference 2013</h1>
-      <h2>Speakers</h2>
+      <h2>Schedule and Speakers</h2>
     </div>
+  </div>
+  <div class="row">
+    <table id='schedule' class="ten columns centered">
+      <thead>
+        <tr>
+          <th class='times'></th>
+          <th class='day1'>Saturday, August 3rd</th>
+          <th class='day2'>Sunday, August 4th</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00am - 8:45am</td>
+          <td>Light Breakfast and Networking</td>
+          <td rowspan="2" style='vertical-align:middle'>Light Breakfast and Networking</td>
+        </tr>
+        <tr>
+          <td>8:45am - 9:00am</td>
+          <td>Introduction from the Organizers</td>
+        </tr>
+        <tr>
+          <td>9:00am - 9:30am</td>
+          <td><strong>Mark Bates</strong><br><a href='#mark'>Keynote</a></td>
+          <td><strong>Richard Schneeman</strong><br><a href='#richard'>Millions of Apps: What We've Learned</a></td>
+        </tr>
+        <tr>
+          <td>10:00am - 10:30am</td>
+          <td><strong>David Czarnecki</strong><br><a href='#david'>Particular Particulars about "Zero Downtime Deploys"</a></td>
+          <td><strong>Danielle Sucher</strong><br><a href='#danielle'>Negotiation for Hackers</a></td>
+        </tr>
+        <tr>
+          <td>11:00am - 11:30am</td>
+          <td><strong>Carina C. Zona</strong><br><a href='#carina'>Handcrafting Community</a></td>
+          <td><strong>Harold Giménez</strong><br><a href='#harold'>Postgres and the Future of Open SQL</a></td>
+        </tr>
+        <tr>
+          <td>11:30am - 1:30pm</td>
+          <td colspan="2" style='text-align: center'>Lunch (not provided)</td>
+        </tr>
+        <tr>
+          <td>2:00pm - 2:30pm</td>
+          <td><strong>Brian Cardarella</strong><br><a href='#brian'>Real-Time Rails</a></td>
+          <td><strong>Bryan Helmkamp</strong><br><a href='#bryan'>The Enterprise Side of Rails</a></td>
+        </tr>
+        <tr>
+          <td>3:00pm - 3:30pm</td>
+          <td><strong>Nick Cox</strong><br><a href='#nick'>Fighting Burnout: Incorporating Rest Into the Software Development Workflow</a></td>
+          <td><strong>Dan Gebhardt</strong><br><a href='#dan'>Building Ambitious APIs with Ruby</a></td>
+        </tr>
+        <tr>
+          <td>4:00pm - 4:30pm</td>
+          <td><strong>Andrew Nordman</strong><br><a href='#andrew'>Embedding Ruby into your Daily Life</a></td>
+          <td><strong>Steve Klabnik</strong><br><a href='#steve'>TBD</a></td>
+        </tr>
+        <tr>
+          <td>4:30pm - 6:00pm</td>
+          <td>Lake-front BBQ</td>
+          <td>See you next year!</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <div id="detailed_speakers" class="section row">
     <div class="twelve columns">
-      <div class="row" id="mark">
+      <div class="row speaker" id="mark">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/mark.jpg" alt="Mark Bates"></div>
           <a href="https://twitter.com/markbates" target="_blank" class="handle">@markbates</a>
@@ -27,7 +88,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Mark Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients. Mark is a co-organizer of the Boston Ruby Users Group. In 2009 Mark’s first (surprisingly not his last!) book, “Distributed Programming with Ruby”, was published by Addison-Wesley. In 2012 Addison-Wesley published Mark’s second book, “Programming in CoffeeScript”. At night he writes books, publishes www.metacasts.tv videos, raises kids, and occasionally he forms a band and “tries to make it”.</p>
         </div>
       </div>
-      <div class="row" id="steve">
+      <div class="row speaker" id="steve">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/steve.jpg" alt="Steve Klabnik"></div>
           <a href="https://twitter.com/steveklabnik" target="_blank" class="handle">@steveklabnik</a>
@@ -39,7 +100,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Rails committer, Jumpstart Lab instructor, nomad philosopher.</p>
         </div>
       </div>
-      <div class="row" id="brian">
+      <div class="row speaker" id="brian">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/brian.jpg" alt="Brian Cardarella"></div>
           <a href="https://twitter.com/bcardarella" target="_blank" class="handle">@bcardarella</a>
@@ -66,7 +127,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Brian Cardarella is the owner of DockYard, a Boston-based Web and Mobile consultancy. He is the author of several popular libraries including ClientSideValidations, ValidAttribute, CapabaraEmail, and PartyFoul. Most recently he was a speaker at EmberCamp in San Francisco.</p>
         </div>
       </div>
-      <div class="row" id="carina">
+      <div class="row speaker" id="carina">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/carina.jpg"
             alt="Carina C. Zona"></div>
@@ -84,7 +145,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Carina C. Zona is a web developer and consultant.  She has taught for Girl Develop It, Black Girls Code, RailsBridge, PyLadies, and RailsGirls. She also served on RailsBridge core team and Women Who Code core team. She's been accidentally forming micro-communities since the '90s. Turns out you can do it on purpose too.</p>
         </div>
       </div>
-      <div class="row" id="richard">
+      <div class="row speaker" id="richard">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/richard.png"
             alt="Richard Schneeman"></div>
@@ -98,7 +159,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Richard "schneems" Scheneeman writes Ruby at Heroku at teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as <a href="https://github.com/schneems/wicked" target="_blank">Wicked</a>, <a href="https://github.com/schneems/sextant" target="_blank">Sextant</a>, and <a href="https://github.com/opro/opro" target="_blank">oPRO</a>. He's on the Rails issue team, and wants you to sign up for <a href="http://www.codetriage.com" target="_blank">Code Triage</a>. Before working as a programmer - Richard graduated from Space camp where he prototyped a perpetual motion machine that didn't work, and from Scout camp where he built trebuchets that did.</p>
         </div>
       </div>
-      <div class="row" id="david">
+      <div class="row speaker" id="david">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/david.jpg" alt="David
             Czarnecki"></div>
@@ -112,7 +173,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">David Czarnecki is a lead engineer at <a href="http://www.agoragames.com" target="_blank">Agora Games</a>, a company that specializes in building middleware to power video games, both in-game and on the web. He is the author of 2 books for O’Reilly and had previously been developing exclusively in Java for nearly 15 years. He has been developing in Ruby and Rails since joining Agora Games in 2008 and has been a speaker at conferences like JavaOne, RailsConf, Ruby Midwest, Lone Star Ruby Conference and Strange Loop. David loves video games, especially the Guitar Hero series and Left 4 Dead.</p>
         </div>
       </div>
-      <div class="row" id="danielle">
+      <div class="row speaker" id="danielle">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/danielle.jpg"
             alt="Danielle Sucher"></div>
@@ -127,7 +188,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           <p class="bio">Danielle Sucher is a developer at 9mmedia, a web/mobile consultancy in NYC. She's also a former attorney with a knack for language and framing issues. In her free time, she codes stuff like Jailbreak the Patriarchy and has an inordinate fondness for playing with puzzles, hot glass, and stinging insects (she currently has two rooftop beehives in Brooklyn, which are reigned over by Queen Jira and Queen Asana).</p>
         </div>
       </div>
-      <div class="row" id="dan">
+      <div class="row speaker" id="dan">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/dan.jpg"
             alt="Dan Gebhardt"></div>
@@ -152,7 +213,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           enjoys painting and hiking with his family near his home in NH.</p>
         </div>
       </div>
-      <div class="row" id="andrew">
+      <div class="row speaker" id="andrew">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/andrew.jpg"
             alt="Andrew Nordman"></div>
@@ -178,7 +239,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           Automation, and Robotics.</p>
         </div>
       </div>
-      <div class="row" id="bryan">
+      <div class="row speaker" id="bryan">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/bryan.jpg"
             alt="Bryan Helmkamp"></div>
@@ -205,7 +266,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           efforts.</p>
         </div>
       </div>
-      <div class="row" id="harold">
+      <div class="row speaker" id="harold">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/harold.jpg"
             alt="Harold Giménez"></div>
@@ -237,7 +298,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails, spea
           meal of choice is a juicy Cheeseburger.</p>
         </div>
       </div>
-      <div class="row" id="nick">
+      <div class="row speaker" id="nick">
         <div class="four columns">
           <div class="speaker-frame"><img src="images/speakers/nick.jpg"
             alt="Nick Cox"></div>
