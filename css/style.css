@@ -67,12 +67,15 @@ h4 { margin:30px 0 30px 0; }
   margin-top: 10px;
 }
 
-a, a:visited, a:hover { color:#999; }
+a, a:visited, a:hover { color:#666; }
 
 #header, .section {
   margin-bottom:8px;
 }
 
+.row .speaker {
+  margin-top: 25px;
+}
 #footer p { margin:0; }
 
 #intro p {
@@ -148,4 +151,24 @@ a {
 
 p.bio {
   font-size: 110%;
+}
+
+table#schedule {
+  padding-bottom: 15px;
+}
+
+#schedule th.times {
+  width: 20%;
+}
+
+table#schedule thead th {
+  text-align: center;
+}
+
+#schedule th.day1, #schedule th.day2 {
+  width: 40%;
+}
+
+#schedule td {
+  border: 1px solid #ccc;
 }
