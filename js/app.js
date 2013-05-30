@@ -1,4 +1,6 @@
 $(function() {
+  var navigation = responsiveNav("#nav");
+
   $("#header").delay(400).queue(function() {
     $(this).addClass("fadeIn");
   });
