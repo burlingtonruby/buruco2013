@@ -286,8 +286,12 @@ table#schedule thead th {
   text-align: center;
 }
 
-#schedule th.day1, #schedule th.day2 {
-  width: 40%;
+#schedule th.day1 {
+  width: 24%;
+}
+
+#schedule th.day2, #schedule th.day3 {
+  width: 30%;
 }
 
 #schedule td {
