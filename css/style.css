@@ -273,23 +273,23 @@ p.bio {
   font-size: 110%;
 }
 
-table#schedule {
+table.schedule {
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
-#schedule th.times {
+.schedule th.times {
   width: 20%;
 }
 
-table#schedule thead th {
+table.schedule thead th {
   text-align: center;
 }
 
-#schedule th.day1, #schedule th.day2 {
+.schedule th.day2, .schedule th.day3 {
   width: 40%;
 }
 
-#schedule td {
+.schedule td {
   border: 1px solid #ccc;
 }
