@@ -116,7 +116,7 @@ a, a:visited, a:hover { color:#666; }
   font-size: 112.5%;
   font-weight: 400;
   letter-spacing: 2px;
-  padding: .5em 1em;
+  padding: .5em 0.5em;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
@@ -134,7 +134,7 @@ a, a:visited, a:hover { color:#666; }
     margin: 0;
     moz-transition: background .5s ease;
     o-transition: background .5s ease;
-    padding: .5em 1em;
+    padding: .5em 0.5em;
     text-align: center;
     transition: background .5s ease;
     webkit-font-smoothing: antialiased;
