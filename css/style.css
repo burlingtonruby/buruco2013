@@ -297,3 +297,26 @@ table.schedule thead th {
 .schedule td {
   border: 1px solid #ccc;
 }
+
+.press-release h1 {
+  font-size: 30px;
+}
+
+.press-release h2 {
+  width: 100%;
+  font-size: 15px;
+  text-align: left;
+}
+
+.press-release .city {
+  font-weight: bold;
+}
+
+.press-release p {
+  text-align: left;
+}
+
+.press-release .hashes {
+  text-align: center;
+  font-weight: bold;
+}
