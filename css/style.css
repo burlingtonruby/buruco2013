@@ -320,3 +320,7 @@ table.schedule thead th {
   text-align: center;
   font-weight: bold;
 }
+
+.press-release ul.contact li {
+  text-align: left;
+}
